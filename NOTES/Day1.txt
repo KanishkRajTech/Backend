@@ -1,0 +1,6 @@
+step1: Create a folder
+step2: move into that folder
+step3: npm init -y
+step4: open folder using vscode
+step5: npm i express
+step6: create sever.js
