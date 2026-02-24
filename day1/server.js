@@ -32,8 +32,8 @@ app.post('/api/cars', (req,res)=>{
 const mongoose = require("mongoose");
 
 mongoose.connect("mongodb://localhost:27017/myDatabase", {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
+    // useNewUrlParser: true,
+    // useUnifiedTopology: true
 })
     .then(() => {
         console.log("Database connected successfully");
